@@ -1,440 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HEAD TO HEALTH</title>
-  <link rel="shortcut icon" href="./assets/images/WhatsApp Video 2024-08-07 at 11.40.30 AM.gif" type="image/x-icon">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketPro - Your Digital Marketing Solution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
 </head>
-
-<body id="top">
-  <header>
-    <div class="container">
-      <a href="#" class="logo">
-        <img src="./assets/images/WhatsApp Video 2024-08-07 at 11.40.30 AM.gif" alt="HEAD TO HEALTH">
-      </a>
-      <div class="header-right">
-        <div class="header-nav-wrapper">
-          <button class="navbar-toggle-btn" data-navbar-toggle-btn>
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-          <nav class="navbar" data-navbar>
-            <ul class="navbar-list">
-              <li>
-                <a href="#" class="navbar-link">Home</a>
-              </li>
-              <li>
-                <a href="#about" class="navbar-link">About</a>
-              </li>
-
-              <li>
-                <a href="#dev" class="navbar-link">Developers</a>
-              </li>
-
-
-
+<body>
+    <div class="spotlight" aria-hidden="true"></div>
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Primary Navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" aria-label="MarketPro home">
+                    <h2>MarketPro</h2>
+                </a>
+            </div>
+            <ul class="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link active-link" role="menuitem">Home</a>
+                </li>
+                <li class="nav-item dropdown" role="none">
+                    <a href="#services" class="nav-link dropdown-toggle" role="menuitem" aria-haspopup="true" aria-expanded="false">Services <i class="fas fa-chevron-down caret"></i></a>
+                    <ul class="dropdown-menu" role="menu" aria-label="Services submenu">
+                        <li role="none"><a role="menuitem" href="seo.html" class="dropdown-item"><i class="fas fa-search"></i> SEO Optimization</a></li>
+                        <li role="none"><a role="menuitem" href="social.html" class="dropdown-item"><i class="fas fa-bullhorn"></i> Social Media Marketing</a></li>
+                        <li role="none"><a role="menuitem" href="ppc.html" class="dropdown-item"><i class="fas fa-ad"></i> PPC Advertising</a></li>
+                        <li role="none"><a role="menuitem" href="email.html" class="dropdown-item"><i class="fas fa-envelope"></i> Email Marketing</a></li>
+                        <li role="none"><a role="menuitem" href="content.html" class="dropdown-item"><i class="fas fa-pen-fancy"></i> Content Marketing</a></li>
+                        <li role="none"><a role="menuitem" href="analytics.html" class="dropdown-item"><i class="fas fa-chart-bar"></i> Analytics & Reporting</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">About</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#testimonials" class="nav-link" role="menuitem">Testimonials</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="signin.html" class="nav-link" role="menuitem">Sign In</a>
+                </li>
+                <li class="nav-item nav-cta" role="none">
+                    <a href="#contact" class="btn btn-cta" role="menuitem">Get Quote</a>
+                </li>
             </ul>
-
-          </nav>
-
-        </div>
-
-        
-        
-      </form>
-      
-      </div>
-
-    </div>
-
-  </header>
-
-
-
-
-
-  <main>
-
-    <article>
-
-      
-
-      <section class="hero">
-        <div class="container">
-
-          <div class="hero-content">
-
-            <h1 class="h1 hero-title"><span>MENTAL HEALTH</span></h1>
-
-            <p class="hero-text">includes our emotional, psychological, and social well-being.
-            </p>
-
-            <div class="btn-group">
-              
-                
-            
-              
+            <div class="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="primary-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-
-          </div>
-
-          <figure class="hero-banner">
-            <img src="./assets/images/WhatsApp Video 2024-08-07 at 11.40.30 AM.gif">
-          </figure>
-
         </div>
-      </section>
+    </nav>
+    <div class="nav-overlay"></div>
 
-
-
-      
-        <section class="about" id="about">
-        <div class="container">
-
-          <h2 class="h2 about-title">SECTIONS 
-            DESIGN THINKING</h2>
-
-          <ol class="about-list">
-
-            <li class="about-item">
-              <div class="about-card">
-
-                <div class="card-number">01</div>
-                
-
-                <div class="card-icon">
-                  <img src="./assets/images/single-create-sell-item-1.png" alt="wallet icon">
-                </div>
-                  <a href='https://head-to-health2.netlify.app/assets/design_thinking/EMPATHIZE.HTML'>
-                <h3  class="h3 about-card-title">EMPATHIZE</h3>
-              </a>
-                <p  class="about-card-text">
-                  research your users' needs.​
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title dynamic-font">
+                    Business with
+                    Market pro
+                </h1>
+                <p class="hero-description">
+                    We help businesses grow their online presence, increase brand awareness, 
+                    and drive more qualified leads through strategic digital marketing solutions.
                 </p>
-
-              </div>
-            </li>
-
-            <li class="about-item">
-              <div class="about-card">
-
-                <div class="card-number">02</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/single-create-sell-item-2.png" alt="collection icon">
+                <div class="hero-buttons">
+                    <a href="signin.html" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Learn More</a>
                 </div>
-                <a href='https://head-to-health2.netlify.app/assets/design_thinking/DEFINE.HTML'>
-                <h3 class="h3 about-card-title">DEFINE</h3>
-                 </a>
-                <p class="about-card-text">
-                 
-                  state your users' needs and problems.​
-                </p>
-
-              </div>
-            </li>
-
-            <li class="about-item">
-              <div class="about-card">
-
-                <div class="card-number">03</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/single-create-sell-item-3.png" alt="folder icon">
+                <div class="hero-toolbox">
+                    <button id="heroToolboxBtn" class="toolbox-btn"><i class="fas fa-toolbox"></i> Toolbox</button>
+                    <div id="heroToolboxPanel" class="toolbox-panel" aria-hidden="true">
+                        <div class="toolbox-inner">
+                            <p style="color:#9ca3af; margin-bottom:10px;">Quick actions</p>
+                            <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;">
+                                <a href="code.html" class="btn btn-primary">Create 3‑Digit Code</a>
+                                <a href="#services" class="btn btn-secondary">Explore Services</a>
+                                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href='https://head-to-health2.netlify.app/assets/design_thinking/IDEATE.HTML'>
-                <h3 class="h3 about-card-title">IDEATE</h3>
-                 </a>
-                <p class="about-card-text">
-                  challenge assumptions and create ideas.​
-                </p>
-
-              </div>
-            </li>
-
-            <li class="about-item">
-              <div class="about-card">
-
-                <div class="card-number">04</div>
-
-                <div class="card-icon">
-                  <img src="./assets/images/single-create-sell-item-4.png" alt="diamond icon">
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50M+</h3>
+                        <p>Impressions</p>
+                    </div>
+                    <div class="stat">
+                        <h3>95%</h3>
+                        <p>Success Rate</p>
+                    </div>
                 </div>
-                <a href='https://head-to-health2.netlify.app/assets/design_thinking/PROTOTYPE.HTML'>
-                <h3 class="h3 about-card-title">PROTOTYPE</h3>
-                   </a>
-                <p class="about-card-text">
-                  start to create solutions.​
-                </p>
-
-              </div>
-            </li>
-          </li>
-
-          <li class="about-item">
-            <div class="about-card">
-
-              <div class="card-number">05</div>
-
-              <div class="card-icon">
-                <img src="./assets/images/single-create-sell-item-3.png" alt="folder icon">
-              </div>
-              <a href='https://head-to-health2.netlify.app/assets/design_thinking/TEST.HTML'>
-              <h3 class="h3 about-card-title">TEST</h3>
-               </a>
-              <p class="about-card-text">
-                try your solutions out.​
-              </p>
-
             </div>
-          </li>
-
-          </ol>
-
+            <div class="hero-image">
+                <div id="lottie-hero" class="lottie"></div>
+                <div class="floating-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>ROI Increased</h4>
+                    <p>+250%</p>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-users"></i>
+                    <h4>New Customers</h4>
+                    <p>+150%</p>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-globe"></i>
+                    <h4>Global Reach</h4>
+                    <p>25+ Countries</p>
+                </div>
+            </div>
         </div>
-      </section>
-      
+    </section>
 
-      
-
-
-
-
-
-
-
-
-      <section class="top-seller" id="dev">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
-
-          <h2 class="h2 top-seller-title">
-            Our <span>Developer</span>s
-            <ion-icon name="chevron-down"></ion-icon>
-          </h2>
-
-          <ol class="top-seller-list">
-
-            <li class="top-seller-item">
-              <a href="#" class="top-seller-card">
-
-                <div class="card-number">01</div>
-
-                <figure class="card-avatar">
-                  <img src="./assets/images/d2b66af7-b90e-47f8-9567-e7a91d779a4b.jpg"  class="divs">
-
-                  <div class="avatar-badge">
-                    <ion-icon name="checkmark-outline"></ion-icon>
-                  </div>
-                </figure>
-
-                <div class="card-content">
-                    <a href='https://head-to-health2.netlify.app/user/ABDELRAHMAN MOHAMED'>
-                  <h3 class="h5 card-title">ABDELRAHMAN MOHAMED</h3>
-
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital marketing solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" id="service-seo">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your search engine rankings and drive organic traffic to your website with our proven SEO strategies.</p>
+                    <ul>
+                        <li>Keyword Research</li>
+                        <li>On-Page Optimization</li>
+                        <li>Technical SEO</li>
+                        <li>Link Building</li>
+                    </ul>
+                    <a href="seo.html" class="btn btn-primary" style="margin-top:1rem;">Learn More</a>
                 </div>
-</a>
-              </a>
-            </li>
-
-            <li class="top-seller-item">
-              <a href="#" class="top-seller-card">
-
-                <div class="card-number">02</div>
-
-                <figure class="card-avatar">
-                  <img src="./assets/images/WhatsApp Image 2024-08-07 at 11.24.38 PM.jpg"  class="divs">
-                  <div class="avatar-badge">
-                    <ion-icon name="checkmark-outline"></ion-icon>
-                  </div>
-                </figure>
-                
-                <div class="card-content"> 
-                  <a href='https://head-to-health2.netlify.app/user/anas'>
-                  <h3 class="h5 card-title">ANAS ESLAM</h3>
-                 </a>
+                <div class="service-card" id="service-social">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Build your brand presence across all major social media platforms and engage with your target audience.</p>
+                    <ul>
+                        <li>Content Strategy</li>
+                        <li>Community Management</li>
+                        <li>Paid Advertising</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                    <a href="social.html" class="btn btn-primary" style="margin-top:1rem;">Learn More</a>
                 </div>
-
-              </a>
-            </li>
-
-            <li class="top-seller-item">
-              <a href="#" class="top-seller-card">
-
-                <div class="card-number">03</div>
-
-                <figure class="card-avatar">
-                  <img src="./WhatsApp Video 2024-08-07 at 11.40.30 AM.gif"class="divs">
-                  <div class="avatar-badge">
-                    <ion-icon name="checkmark-outline"></ion-icon>
-                  </div>
-                </figure>
-
-                <div class="card-content">
-                    <a href='https://head-to-health2.netlify.app/user/ABDELRAHMAN MOHAMED2'>
-                  <h3 class="h5 card-title">ABDELRAHMAN MOHAMED</h3>
-                    </a>
+                <div class="service-card" id="service-email">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Marketing</h3>
+                    <p>Nurture leads and retain customers with personalized email campaigns that drive conversions.</p>
+                    <ul>
+                        <li>Automation Workflows</li>
+                        <li>Segmentation</li>
+                        <li>A/B Testing</li>
+                        <li>Performance Tracking</li>
+                    </ul>
+                    <a href="email.html" class="btn btn-primary" style="margin-top:1rem;">Learn More</a>
                 </div>
-
-              </a>
-            </li>
-
-            <li class="top-seller-item">
-              <a href="#" class="top-seller-card">
-
-                <div class="card-number">04</div>
-
-                <figure class="card-avatar">
-                  <img src="./user/assets/images//WhatsApp Image 2024-08-08 at 9.18.39 AM.jpeg"class="divs">
-
-                  <div class="avatar-badge">
-                    <ion-icon name="checkmark-outline"></ion-icon>
-                  </div>
-                </figure>
-
-                <div class="card-content">
-                    <a href='https://head-to-health2.netlify.app/user/ABDELRAHMAN MAMDOUH'>
-                  <h3 class="h5 card-title">ABDELRAHMAN MAMDOUH</h3>
-                    </a>
-                  
+                <div class="service-card" id="service-ppc">
+                    <div class="service-icon">
+                        <i class="fas fa-ad"></i>
+                    </div>
+                    <h3>PPC Advertising</h3>
+                    <p>Get immediate visibility and results with targeted pay-per-click campaigns across Google and social platforms.</p>
+                    <ul>
+                        <li>Google Ads</li>
+                        <li>Facebook Ads</li>
+                        <li>Campaign Optimization</li>
+                        <li>Conversion Tracking</li>
+                    </ul>
+                    <a href="ppc.html" class="btn btn-primary" style="margin-top:1rem;">Learn More</a>
                 </div>
-
-
-              </a>
-            </li>
-   
-            <li class="top-seller-item">
-              <a href="#" class="top-seller-card">
-
-                <div class="card-number">05</div>
-
-                <figure class="card-avatar">
-                  <img src="./WhatsApp Video 2024-08-07 at 11.40.30 AM.gif"class="divs">
-
-                  <div class="avatar-badge">
-                    <ion-icon name="checkmark-outline"></ion-icon>
-                  </div>
-                </figure>
-
-                <div class="card-content">
-                    <a href='https://head-to-health2.netlify.app/user/MOHAMED SABRY'>
-                  <h3 class="h5 card-title">MOHAMED SABRY</h3>
-                    </a>
-                  
+                <div class="service-card" id="service-content">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Content Marketing</h3>
+                    <p>Create valuable, engaging content that attracts and converts your ideal customers.</p>
+                    <ul>
+                        <li>Blog Writing</li>
+                        <li>Video Production</li>
+                        <li>Infographics</li>
+                        <li>Content Strategy</li>
+                    </ul>
+                    <a href="content.html" class="btn btn-primary" style="margin-top:1rem;">Learn More</a>
                 </div>
-                
-
-              </a>
-            </li>
-          </ol>
-
+                <div class="service-card" id="service-analytics">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics & Reporting</h3>
+                    <p>Track performance and make data-driven decisions with comprehensive analytics and detailed reporting.</p>
+                    <ul>
+                        <li>Performance Tracking</li>
+                        <li>Custom Dashboards</li>
+                        <li>ROI Analysis</li>
+                        <li>Monthly Reports</li>
+                    </ul>
+                    <a href="analytics.html" class="btn btn-primary" style="margin-top:1rem;">Learn More</a>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-    </article>
-
-  </main>
-
-  <footer>
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/WhatsApp Video e2024-08-07 at 11.40.30 AM.gif">
-          </a>
-
-          
-
-      
-            <h3 class="h4 social-title">Join the community</h3>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="https://github.com/drssp1" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://x.com/DRS_SUPPORT_1" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            
-
-            <li>
-              <a href="https://www.youtube.com/@DRS_Shop_server" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-        
-
-          </ul>
-
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose MarketPro?</h2>
+                    <p>We're not just another digital marketing agency. We're your strategic partner in growth, combining cutting-edge technology with proven marketing strategies to deliver exceptional results.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Proven Track Record</h4>
+                                <p>Over 5 years of experience helping businesses achieve their marketing goals</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Data-Driven Approach</h4>
+                                <p>Every decision is backed by data and analytics to ensure maximum ROI</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Transparent Communication</h4>
+                                <p>Regular updates and clear reporting so you always know what's happening</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Custom Solutions</h4>
+                                <p>Tailored strategies that fit your unique business needs and goals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Growth Analytics</h3>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="footer-link-box">
-
-          <ul class="footer-list">
-
-            <li>
-              <h3 class="h3 footer-item-title">CONTACT</h3>
-            </li>
-
-            <li class="footer-item">
-              <a href="#" class="footer-link">APP</a>
-            </li>
-
-            <li class="footer-item">
-              <a href="#" class="footer-link">POWER POINT</a>
-            </li>
-
-          </ul>
-
-          
-
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it - hear from our satisfied clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"MarketPro transformed our online presence completely. Our organic traffic increased by 300% in just 6 months!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The team's expertise in social media marketing helped us reach our target audience like never before. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Marketing Director, RetailPlus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Outstanding results! Our conversion rate improved by 150% and our ROI exceeded all expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Founder, EcoFriendly Co.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2024 <a href="https://1drv.ms/p/s!Aq1pF6i7RRYgd82bOjYu49k5rQM?e=pYSbCf">@MENTAL HEALTH</a> all rights reserved
-        </p>
-
-        <div class="footer-bottom-links">
-          <a href="">Privacy Policy</a>
-
-          <a href="https://1drv.ms/p/s!Aq1pF6i7RRYgd82bOjYu49k5rQM?e=pYSbCf">Terms & Conditions</a>
+    <!-- Comments (Signed-in clients only) -->
+    <section id="comments" class="contact">
+        <div class="container">
+            <div class="section-header" style="margin-bottom:2rem;">
+                <h2>Client Comments</h2>
+                <p>Share your feedback. Signing in is required to post.</p>
+            </div>
+            <div class="contact-content" style="grid-template-columns: 2fr 1fr; gap:2rem;">
+                <div>
+                    <div id="commentsList" class="testimonials-grid" style="grid-template-columns: 1fr;">
+                        <!-- Filled by script -->
+                    </div>
+                </div>
+                <div>
+                    <div id="commentFormCard" class="contact-form">
+                        <form id="commentForm">
+                            <div class="form-group">
+                                <textarea id="commentText" placeholder="Write your comment..." rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Post Comment</button>
+                        </form>
+                        <div id="commentLocked" style="display:none;">
+                            <p style="color:#9ca3af; margin-bottom:1rem;">Please sign in to post a comment.</p>
+                            <a href="signin.html" class="btn btn-secondary btn-full">Sign In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-      </div>
-    </div>
-  </footer>
-<style>
-  .top-seller-card img {
-    border-radius:50%;
-  }
-</style>
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="arrow-up-outline"></ion-icon>
-  </a>
-  <script src="./assets/js/script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Ready to Grow Your Business?</h2>
+                    <p>Let's discuss how we can help you achieve your marketing goals and drive real results for your business.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p><a href="tel:+15551234567" class="nav-link">+1 (555) 123-4567</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:hello@marketpro.com" class="nav-link">hello@marketpro.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Business Ave, Suite 100<br>New York, NY 10001</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="Company Name">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="seo">SEO Optimization</option>
+                                <option value="social">Social Media Marketing</option>
+                                <option value="email">Email Marketing</option>
+                                <option value="ppc">PPC Advertising</option>
+                                <option value="content">Content Marketing</option>
+                                <option value="analytics">Analytics & Reporting</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MarketPro</h3>
+                    <p>Your trusted partner in digital marketing success. We help businesses grow and thrive in the digital landscape.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">SEO Optimization</a></li>
+                        <li><a href="#services">Social Media Marketing</a></li>
+                        <li><a href="#services">Email Marketing</a></li>
+                        <li><a href="#services">PPC Advertising</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@marketpro.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MarketPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
